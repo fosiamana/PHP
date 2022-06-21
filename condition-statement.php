@@ -16,7 +16,8 @@
 //}
 //invoke the function
 //checkUserEligibilityToVote()
-   $marks=78;
+
+ {   $marks=78;
    if($marks>=80)
    {
     $grade= "A";
@@ -47,5 +48,6 @@
   }
 
  echo  "your grade is ".$grade
-
+ }
+ 
 ?>
